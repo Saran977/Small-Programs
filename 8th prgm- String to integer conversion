@@ -1,0 +1,6 @@
+a="321"
+s=0
+for i in a:
+    x=ord(i)-ord('0')
+    s=(s*10)+x
+print(s,end="")
